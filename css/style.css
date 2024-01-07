@@ -368,7 +368,7 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 680px) {
   .products {
     display: flex;
     flex-wrap: wrap;
@@ -450,6 +450,52 @@ footer {
     height: auto; /* Zmiana, aby proporcje obrazu były zachowane */
     display: block;
     margin: 0 auto;
+  }
+
+  .h3 {
+    display: flex;
+    height: 65vh;
+    margin-top: 0px;
+  }
+  
+  .yh3 {
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgh3 {
+    flex: 1;
+    background: url('images/1.jpg') center/cover no-repeat;
+  }
+  
+  .txt3 {
+    color: black; /* Adjust text color as needed */
+    margin: 35px;
+  }
+  
+  .h3 a {
+    text-decoration: none;
+    color: #f5f5f5;
+  
+  }
+  
+  
+  .h3 button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Adjust button color as needed */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .h3 button:hover {
+    background-color: #0056b3; /* Adjust button hover color as needed */
   }
 
 }
