@@ -368,7 +368,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 600px) {
   .products {
     display: flex;
     flex-wrap: wrap;
