@@ -368,7 +368,7 @@ footer {
 }
 
 
-@media all and (min-width:480px) and (max-width:800px) {
+/*@media all and (min-width:480px) and (max-width:800px) {
   .products {
     display: flex;
     flex-wrap: wrap;
@@ -412,7 +412,7 @@ footer {
   .price button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007BFF; /* Adjust button color as needed */
+    background-color: #007BFF; 
     color: white;
     text-decoration: none;
     border: none;
@@ -427,13 +427,13 @@ footer {
   }
   
   .price button:hover {
-    background-color: #0056b3; /* Adjust button hover color as needed */
+    background-color: #0056b3; 
   }
 
 
   .gallery-container {
     display: flex;
-    flex-direction: column; /* Zmiana kierunku flex na kolumnę */
+    flex-direction: column; 
     align-items: center;
     width: 100%;
     margin: 0 auto;
@@ -447,7 +447,7 @@ footer {
 
   .gallery-item img {
     max-width: 100%;
-    height: auto; /* Zmiana, aby proporcje obrazu były zachowane */
+    height: auto; 
     display: block;
     margin: 0 auto;
   }
@@ -472,7 +472,7 @@ footer {
   }
   
   .txt3 {
-    color: black; /* Adjust text color as needed */
+    color: black; 
     margin: 35px;
   }
   
@@ -486,7 +486,7 @@ footer {
   .h3 button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007BFF; /* Adjust button color as needed */
+    background-color: #007BFF; /
     color: white;
     text-decoration: none;
     border: none;
@@ -495,7 +495,7 @@ footer {
   }
   
   .h3 button:hover {
-    background-color: #0056b3; /* Adjust button hover color as needed */
+    background-color: #0056b3;
   }
 
-}
+}/*
