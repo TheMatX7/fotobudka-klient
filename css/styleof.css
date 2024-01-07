@@ -377,134 +377,135 @@ body {
     /*width: 100%;*/
   }
 
-  /*@media all and (min-width:480px) and (max-width:800px) {
-  .products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .product {
-    width: 300px;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    background-color: #f5f5f5;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .product img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  
-  .product h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .product p {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .product .price {
-    font-size: 18px;
-    font-weight: bold;
-    color: #ff0000;
-    text-decoration: none;
-  }
-  
-  .price button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007BFF; 
-    color: white;
-    text-decoration: none;
-    border: none;
-    text-align: center;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .price a, button {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .price button:hover {
-    background-color: #0056b3; 
-  }
-
-
-  .gallery-container {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #ffe100;
-  }
-
-  .gallery-item {
-    margin: 10px;
-    text-align: center;
-  }
-
-  .gallery-item img {
-    max-width: 100%;
-    height: auto; 
-    display: block;
-    margin: 0 auto;
-  }
-
-  .h3 {
-    display: flex;
-    height: 65vh;
-    margin-top: 0px;
-  }
-  
-  .yh3 {
-    flex: 1;
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .imgh3 {
-    flex: 1;
-    background: url('images/1.jpg') center/cover no-repeat;
-  }
-  
-  .txt3 {
-    color: black; 
-    margin: 35px;
-  }
-  
-  .h3 a {
-    text-decoration: none;
-    color: #f5f5f5;
-  
-  }
+  @media all and (min-width:480px) and (max-width:800px) {
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .product {
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      background-color: #f5f5f5;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    
+    .product h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .product p {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .product .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ff0000;
+      text-decoration: none;
+    }
+    
+    .price button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF; 
+      color: white;
+      text-decoration: none;
+      border: none;
+      text-align: center;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .price a, button {
+      text-decoration: none;
+      color: white;
+    }
+    
+    .price button:hover {
+      background-color: #0056b3; 
+    }
   
   
-  .h3 button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007BFF; /
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+    .gallery-container {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      background-color: #ffe100;
+    }
   
-  .h3 button:hover {
-    background-color: #0056b3;
+    .gallery-item {
+      margin: 10px;
+      text-align: center;
+    }
+  
+    .gallery-item img {
+      max-width: 100%;
+      height: auto; 
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .h3 {
+      display: flex;
+      height: 65vh;
+      margin-top: 0px;
+    }
+    
+    .yh3 {
+      flex: 1;
+      background-color: yellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .imgh3 {
+      flex: 1;
+      background: url('images/1.jpg') center/cover no-repeat;
+    }
+    
+    .txt3 {
+      color: black; 
+      margin: 35px;
+      font-size: 13px;
+    }
+    
+    .h3 a {
+      text-decoration: none;
+      color: #f5f5f5;
+    
+    }
+    
+    
+    .h3 button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF; 
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .h3 button:hover {
+      background-color: #0056b3;
+    }
+  
   }
-
-}/*

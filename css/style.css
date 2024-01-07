@@ -368,7 +368,7 @@ footer {
 }
 
 
-/*@media all and (min-width:480px) and (max-width:800px) {
+@media all and (min-width:480px) and (max-width:800px) {
   .products {
     display: flex;
     flex-wrap: wrap;
@@ -474,6 +474,7 @@ footer {
   .txt3 {
     color: black; 
     margin: 35px;
+    font-size: 13px;
   }
   
   .h3 a {
@@ -486,7 +487,7 @@ footer {
   .h3 button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007BFF; /
+    background-color: #007BFF; 
     color: white;
     text-decoration: none;
     border: none;
@@ -498,4 +499,4 @@ footer {
     background-color: #0056b3;
   }
 
-}/*
+}
