@@ -431,6 +431,25 @@ footer {
   }
 
 
+  .gallery-container {
+    display: flex;
+    flex-direction: column; /* Zmiana kierunku flex na kolumnę */
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffe100;
+  }
 
+  .gallery-item {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .gallery-item img {
+    max-width: 100%;
+    height: auto; /* Zmiana, aby proporcje obrazu były zachowane */
+    display: block;
+    margin: 0 auto;
+  }
 
 }
